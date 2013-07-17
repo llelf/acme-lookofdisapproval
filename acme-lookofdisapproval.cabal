@@ -1,0 +1,31 @@
+name:                acme-lookofdisapproval
+version:             0.1
+homepage:	     https://github.com/llelf/acme-lookofdisapproval
+synopsis:            Express your disapproval
+description:
+	The Acme.LookOfDisapproval module provides one function &#xca0;_&#xca0;,
+	which lets you to express your profound disapproval.
+license:             BSD3
+license-file:        LICENSE
+author:              Anton Nikishaev <me@lelf.lu>
+maintainer:          Anton Nikishaev <me@lelf.lu>
+copyright:           2013 Anton Nikishaev
+category:            Acme
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:
+	README
+
+library
+  exposed-modules:     Acme.LookOfDisapproval
+  build-depends:       base < 1001
+  default-language:    Haskell98
+
+source-repository head
+  type:     git
+  location: https://github.com/llelf/acme-lookofdisapproval
+
+-- source-repository head
+--   type:     darcs
+
+
