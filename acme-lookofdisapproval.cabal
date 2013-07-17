@@ -22,11 +22,11 @@ library
   default-language:    Haskell98
 
 source-repository head
-  type:     git
-  location: https://github.com/llelf/acme-lookofdisapproval
-
-source-repository head
   type:     darcs
   location: http://hub.darcs.net/lelf/acme-lookofdisapproval
+
+source-repository head
+  type:     git
+  location: https://github.com/llelf/acme-lookofdisapproval
 
 
